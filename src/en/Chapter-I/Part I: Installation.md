@@ -1,17 +1,19 @@
-Installing Eclipse
+Installing Java SDK
 ===
 
-You will be using a program called Eclipse to write Java in. Eclipse is an example of an IDE, which stands for **Integrated Development Environment**. In short, an IDE is an application which contains a set of tools used to create programs in whichever language you are using. The IDE will constantly check to see if the syntax of your code is correct and that you have not made any silly mistakes. So, you can imagine the IDE as being an English teacher who is constantly checking to see if your grammar/punctuation (syntax) is correct whilst you write sentences, or in our case, code. As the IDE is running all the time, if you are typing in code and you have not yet finished writing the line you may encounter errors and your code may be underlined in red. This is nothing to worry about and will only be a problem when you finish writing the line, at which point you need to do some investigative work. Try to see if you have made a silly mistake, and if that endeavour bears no fruit, read the error and try to understand what it is trying to tell you, and then correct the mistake. This process of finding and eliminating errors is known as **debugging**.
+In this course we will be using Linux and writing our Java in a simple text editor. Unix, such as OS X, should be similar but it is up to you to support that. This will cover instructions for Debian Linux, which includes Ubuntu, because if you're using another distro you're probably good enough to know how to install stuff. If you run Windows, I recommend running a virtual machine, in VirtualBox, but if you run Windows 10 Developer Preview, you can enable a bash console. In this we will assume that you understand and can use bash. If not, I recommend [this tutorial](http://cli.learncodethehardway.org/book/) or [this CodeCademy guide](https://www.codecademy.com/learn/learn-the-command-line).
 
-So now we will cover how to install Eclipse:
+So now we will cover how to install the thing:
 
-First, head over to Eclipse's website, which looks like this:
+First, we need to open up our terminal, using Win+T or Ctrl+Alt+T on most distros:
 
-![A screenshot of the Eclipse website front page](../../Images/Chapter-I/Introduction/Eclipse_website_screenshot1.png)
+![New terminal](../../Images/Chapter-I/Introduction/NewTerminal.png)
 
-Next, search in the searchbox for **Eclipse standard**:
+Next (on Debian based distros) we need to enter the command
 
-![A screenshot of the results](../../Images/Chapter-I/Introduction/Eclipse_website_screenshot2.png)
+```bash
+sudo apt install openjdk-7-jdk
+```
 
 Now click **Eclipse standard 4.4**, the first one listed:
 
@@ -61,7 +63,7 @@ Now copy and paste this piece of code into your class:
 
 ```java
 public static void main(String[] args) {
-		
+
 }
 ```
 
