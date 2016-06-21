@@ -1,10 +1,10 @@
+xx
 Installing Java SDK
 ===
 
 In this course we will be using Linux and writing our Java in a simple text editor. Unix, such as OS X, should be similar but it is up to you to support that. This will cover instructions for Debian Linux, which includes Ubuntu, because if you're using another distro you're probably good enough to know how to install stuff. If you run Windows, I recommend running a virtual machine, in VirtualBox, but if you run Windows 10 Developer Preview, you can enable a bash console. In this we will assume that you understand and can use bash. If not, I recommend [this tutorial](http://cli.learncodethehardway.org/book/) or [this CodeCademy guide](https://www.codecademy.com/learn/learn-the-command-line).
 
-So now we will cover how to install the thing:
-
+##So now we will cover how to install the thing:
 First, we need to open up our terminal, using Win+T or Ctrl+Alt+T on most distros:
 
 ![New terminal](../../Images/Chapter-I/Introduction/NewTerminal.png)
@@ -12,32 +12,23 @@ First, we need to open up our terminal, using Win+T or Ctrl+Alt+T on most distro
 Next (on Debian based distros) we need to enter the command
 
 ```bash
-sudo apt install openjdk-7-jdk
+sudo apt install openjdk-7-jdk -y
 ```
 
-Now click **Eclipse standard 4.4**, the first one listed:
+You will be prompted for your user password. Type it in and then it should install:
 
-![Eclipse standard 4.4](../../Images/Chapter-I/Introduction/Eclipse_standard.png)
+![OpenJDK installed](../../Images/Chapter-I/Introduction/InstalledJDK.png)
 
-Now under download links, you should see your OS (Operating System). Click it:
-
-![Know your computer version](../../Images/Chapter-I/Introduction/Eclipse_download_links.png)
-
-Next, click where it says **[United Kingdom] UK Mirror Service (http)**, or do the same for whichever country you are in:
-
-![This was made in the UK](../../Images/Chapter-I/Introduction/Eclipse_UK_mirror_service.png)
-
-Now save the file. Once it has finished downloading, open and extract it.
-
-Now simply double click on the eclipse file and Eclipse will now open.
+##How we'll write out Java
+We are going to use a lowly text editor for this tutorial. While IDEs have advantages, it is always best to learn on a text editor, otherwise you become reliant on IDE help tools ([see this explanation](http://c.learncodethehardway.org/book/ex0.html#warning-do-not-use-an-ide)). I personally recommend [Atom](http://atom.io), or for the minimalists, Nano, but Gedit and Vim are just fine.
 
 ## What this course entails
 In this course you will learn how to program in Java and then Swing.  You can think of programming as a way of making your computer do things - and anything that you create and run on your computer is called a program.  Programs can be seen as a set of instructions that get executed when you run the program. The instructions for programs cannot be written in plain English; they must be written in different languages, one of which is Java.  Anything you write in Java is called code, and lines of code look very similar to sentences.  However there are some key differences, such as that lines of code end in a semi-colon (;) not a full-stop. Eclipse is very nice and will highlight different bits of your code so that you can see the different bits of code more clearly. The code you write in Eclipse will tell your program what you want it to do when you run your code.  With that explained, on with the programming!
 
-1) Open up Eclipse
-It should look something like the screen shot below:
+1) Open up your text editor (we will use Nano):
+Open a terminal how we showed you earlier, and enter `nano`. It should look something like the screen shot below:
 
-![Eclipse interface](../../Images/Chapter-I/Introduction/Opening_eclipse.png)
+![Nano opened](../../Images/Chapter-I/Introduction/openNano.png)
 
 The green icon, which looks like the picture below, is used to run your programs. It can be found in the top bar and you have to click it to run the current program you are working in. Provided that your program has no errors, your program should run.
 
