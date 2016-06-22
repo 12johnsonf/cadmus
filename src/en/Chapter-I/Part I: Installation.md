@@ -1,4 +1,3 @@
-xx
 Installing Java SDK
 ===
 
